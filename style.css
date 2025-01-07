@@ -116,7 +116,7 @@ main {
     outline: none;
     background-color: #6D2932;
     color: white;
-	padding: 10px 20px;
+    padding: 10px 20px;
     font-size: 1rem;
     border-radius: 20px;
     cursor: pointer;
@@ -239,11 +239,12 @@ footer nav ul li a {
   footer nav ul {
         flex-wrap: wrap;
         justify-content: center;
-        gap: 15px; 
+        gap: 35px; 
     }
 
     footer nav ul li a {
         font-size: 1rem; 
+        font-weight: bold;	
     }
 
     .foot3 p {
