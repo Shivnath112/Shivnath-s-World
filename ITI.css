@@ -64,16 +64,24 @@ header nav ul li a {
 
 main {
     background-color: #C7B7A3;
-    padding: 20px;
+    padding: 0;
+    margin: 0;
     text-align: center;
 }
-.content img {
-    max-width: 100%; 
-    height: auto; 
-    display: block; 
-    margin: 0 auto; 
+.mc {
+    background-image: url(mc.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 2rem;
+    opacity: 0.8;
+    padding: 20px;
 }
-
 footer {
     background-color: #6D2932;
     padding: 20px;
@@ -135,9 +143,10 @@ footer nav ul li a {
     header nav ul li a {
         font-size: 0.9rem;
     }
-	 .content img {
-        width: 70%; 
-    }
+    .mc{
+        height: 400px;
+        font-size: 2rem;	
+      }
 
     footer nav ul {
         flex-wrap: wrap;
@@ -161,10 +170,11 @@ footer nav ul li a {
         margin-left: 0;
         margin-right: 0; 
     }
-.content img {
-        width: 90%;
-		
-    }
+ .mc{
+        height: 250px;
+        font-size: 1.2rem;
+        padding: 10px;
+	}
 
  footer nav ul {
         flex-wrap: wrap;
