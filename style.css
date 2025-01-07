@@ -236,17 +236,17 @@ footer nav ul li a {
     }
 }
 
-    footer nav ul {
+  footer nav ul {
         flex-wrap: wrap;
         justify-content: center;
-        gap: 5px;
+        gap: 15px; 
     }
 
     footer nav ul li a {
-        font-size: 0.7rem;
+        font-size: 1rem; 
     }
 
     .foot3 p {
-        font-size: 0.8rem;
+        font-size: 0.9rem; 
     }
 }
