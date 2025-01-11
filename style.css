@@ -61,7 +61,6 @@ header nav ul li a {
     font-size: 1rem;
     font-weight: bold;
 }
-
 main {
     background-color: #C7B7A3;
     text-align: center;
@@ -97,7 +96,7 @@ main {
     align-items: center;
     background-color: rgba(255, 255, 255, 0.95);
     padding: 10px 20px;
-    border-radius: 25px;
+    border-radius: 35px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -111,12 +110,13 @@ main {
     flex: 1;
     font-family: 'Arial', sans-serif;
 }
+
 .search-bar button {
     border: none;
     outline: none;
     background-color: #6D2932;
     color: white;
-    padding: 10px 20px;
+	padding: 10px 20px;
     font-size: 1rem;
     border-radius: 20px;
     cursor: pointer;
@@ -136,7 +136,7 @@ footer {
 footer nav ul {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    flex-wrap: wrap; 
     gap: 20px;
     list-style: none;
     padding: 10px 0;
@@ -146,7 +146,6 @@ footer nav ul li a {
     color: #E8D8C4;
     text-decoration: none;
     font-size: 1rem;
-    font-weight: bold;
 }
 
 .foot2 {
@@ -169,46 +168,53 @@ footer nav ul li a {
         flex-direction: column;
         align-items: center;
     }
+
     .logo {
         margin-bottom: 10px;
         height: 70px;
         width: 70px;
     }
+
     .head {
         font-size: 1.8rem;
         margin-bottom: 10px;
     }
+
     header nav ul {
-        gap: 15px;
+        gap: 35px;
     }
+
     header nav ul li a {
         font-size: 0.9rem;
     }
 	 .search-bar {
         flex-direction: flex; 
-        padding: 5px;
+        padding: 4px;
+		
+
     }
+
     .search-bar input {
         width: 100%; 
         margin-right: 0;
         margin-bottom: 10px; 
         padding: 8px; 
     }
+
     .search-bar button {
-        width: 60%; 
-        max-width: none; 
-        padding: 8px; 
-        font-size: 0.9rem; 
-    }
+           width: 30%;
+    max-width: none;
+    padding: 11px;
+    font-size: 0.8rem;
 }
     footer nav ul {
         flex-wrap: wrap;
         justify-content: center;
         gap: 10px;
     }
+
     footer nav ul li a {
         font-size: 0.8rem;
-        font-weight: bold;
     }
 }
 
@@ -216,40 +222,42 @@ footer nav ul li a {
     .head {
         font-size: 1.5rem;
     }
- .login {
-	position: absolute; 
-        top: 10px; 
-        right: 10px; 
-        margin-left: 0;
-        margin-right: 0; 
-    }
- .search-bar {
-        padding: 8px; 
-    }
 
-    .search-bar input {
-        padding: 6px;
-        font-size: 0.9rem; 
+    .login {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        height: 40px; 
+        width: 40px;
     }
-
-    .search-bar button {
-        padding: 6px;
-        font-size: 0.8rem; 
-    }
-}
-
-  footer nav ul {
+    footer nav ul {
         flex-wrap: wrap;
         justify-content: center;
-        gap: 35px; 
+        gap: 10px;
     }
 
     footer nav ul li a {
-        font-size: 1rem; 
-        font-weight: bold;	
+        font-size: 0.8rem;
     }
 
     .foot3 p {
-        font-size: 0.9rem; 
+        font-size: 0.9rem;
+    }
+}
+@media (max-width: 468px) {
+    .search-bar {
+       
+    padding: 9px !important;
+    margin-top: 0px !important;
+    }
+
+    .search-bar input {
+        padding: 4px !important;
+        font-size: 0.7rem !important;
+    }
+
+    .search-bar button {
+        padding: 8px 0.7px !important;
+        font-size: 0.8rem !important;
     }
 }
